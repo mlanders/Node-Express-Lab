@@ -11,7 +11,7 @@ server.use('/api/posts', blogPostsRouter);
 //Default send
 server.get('/', async (req, res) => {
 	res.send(`
-      <h2>API working on port 5000</h2>
+      <h2>Sanity check! Woot!</h2>
     `);
 });
 
